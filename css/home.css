@@ -1,3 +1,30 @@
- body {
- 		 background-image: url(..\img\scanlines_background.jpg);
+body{
+		background-image: url("../img/scanlines_background.jpg");
+		}
+
+h1,h2{
+        font-family: 'Press Start 2P', cursive;
+        color: #48DE41;
+        font-size: 55px;
+        opacity: 0.5;
+        }
+
+div {
+  text-align: justify;
+
+}
+header {
+    padding-right: 60px;
+    padding-left: 40px;
+}
+
+img, span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
 }
