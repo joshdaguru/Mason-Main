@@ -1,3 +1,11 @@
+@font-face {
+    src: url(../fonts/greenscr.ttf);
+    font-family: greenscr;
+}
+
+
+
+
 body{
 		background-image: url("../img/scanlines_background.jpg");
 		}
@@ -19,12 +27,12 @@ h2 {
     }
 
 
-p {font-family: 'Press Start 2P', cursive;
+p {font-family: greenscr;
     color: #48DE41;
     font-size: 20px;
     opacity: 0.6;
     text-shadow: 0px 0px 8px #00ff44;
-    text-align: justify;
+    text-align: left;
     line-height: 200%;
     padding-top: 75;
     padding-right: 100px;
